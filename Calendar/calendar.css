@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #edf1f4;
+}
+
+.box{
+    position: relative;
+}
+
+.container{
+    position: relative;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3), -15px -15px 30px #fff;
+}
+
+#dycalendar{
+    width: 100%;
+    padding: 30px 30px 0;
+}
+
+#dycalendar table{
+    width: 100%;
+    border-spacing: 15px;
+}
+
+#dycalendar table tr:nth-child(1) td{
+    background: rgb(92, 182, 237);
+    color:white;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.1), -5px -5px 10px #fff;
+    border:2px solid #edf1f4;
+}
+
+#dycalendar table tr td{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.1), -5px -5px 10px #fff;
+    border:2px solid #edf1f4;
+}
+
+#dycalendar table td:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 1);
+}
+
+#dycalendar table tr:nth-child(1) td:nth-child(6){
+    background: red;
+    color:#fff;
+
+}
+
+#dycalendar table tr:nth-child(2) td:nth-child(6){
+    background: red;
+    color:#fff;
+}
+
+#dycalendar table tr:nth-child(3) td:nth-child(6){
+    background: red;
+    color:#fff;
+}
+
+#dycalendar table tr:nth-child(4) td:nth-child(6){
+    background: red;
+    color:#fff;
+}
+
+
+#dycalendar table tr:nth-child(5) td:nth-child(6){
+    background: red;
+    color:#fff;
+    
+}
+#dycalendar table tr:nth-child(6) td:nth-child(6){
+    background: red;
+    color:#fff;
+    
+}
+
+#dycalendar table tr:nth-child(1) td:nth-child(7){
+    background: red;
+    color:#fff;
+
+}
+
+#dycalendar table tr:nth-child(2) td:nth-child(7){
+    background: red;
+    color:#fff;
+}
+
+#dycalendar table tr:nth-child(3) td:nth-child(7){
+    background: red;
+    color:#fff;
+}
+
+#dycalendar table tr:nth-child(4) td:nth-child(7){
+    background: red;
+    color:#fff;
+}
+
+
+#dycalendar table tr:nth-child(5) td:nth-child(7){
+    background: red;
+    color:#fff;
+    
+}
+#dycalendar table tr:nth-child(6) td:nth-child(7){
+    background: red;
+    color:#fff;
+    
+}
+
+.dycalendar-month-container .dycalendar-target-date{
+    background:rgb(92, 182, 237) !important;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.1), -5px -5px 10px #fff;
+    border:2px solid #edf1f4;
+    right: 15px;
+    align-items: center;
+    top: 0px;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.1), -5px -5px 10px #fff;
+    border:2px solid #edf1f4;
+    right: 15px;
+    align-items: center;
+    top: 0px;
+}
+
+.dycalendar-span-month-year{
+    font-size: 25px;
+    color: rgb(92, 182, 237);
+    top: -20px;
+    text-transform: uppercase;
+}
